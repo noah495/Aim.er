@@ -19,7 +19,7 @@ public class Score : MonoBehaviour
 
     void OnGUI(){
 
-    GUI.Box( new Rect(100,100,100,100), score.ToString ()); 
+    GUI.Box( new Rect(10,50,200,100), score.ToString ()); 
 }
 }
  
